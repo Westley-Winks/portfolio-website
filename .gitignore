@@ -3,3 +3,4 @@
 /content
 /static/images
 .vscode
+.lock

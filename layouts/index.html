@@ -107,6 +107,11 @@
     {{- partial "sections/v3/achievements.html" . -}}
     {{ end }}
 
+    {{ if .Site.Params.disable_why }}
+    {{ else }}
+    {{- partial "sections/v3/why.html" . -}}
+    {{ end }}
+
     {{ if .Site.Params.disable_contact }}
     {{ else }}
     {{- partial "sections/v3/contact.html" . -}}

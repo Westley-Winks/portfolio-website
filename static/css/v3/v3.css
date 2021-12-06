@@ -372,3 +372,9 @@ a:hover {
 #contact {
   font-size: 17px;
 }
+
+/* why */
+#why {
+  font-size: 17px;
+  background-color: rgba(255, 0, 0, 0.9);
+}

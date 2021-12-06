@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto text-center">
 
-        {{ if .Site.Params.disable_about }}
+        {{ if .Site.Params.disable_about_button }}
         {{ else }}
         <li class="nav-item navbar-text">
           <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#about" aria-label="about">About</a>
@@ -64,11 +64,21 @@
         </li>
         {{ end }}
 
+        {{ if .Site.Params.disable_why }}
+        {{ else }}
+        <li class="nav-item navbar-text">
+          <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#why" aria-label="contact">Why</a>
+        </li>
+        {{ end }}
+
         {{ range site.Params.customMenus }}
         <li class="nav-item navbar-text">
           <a class="nav-link text-dark" href="{{.Url}}" aria-label="{{ .name }}">{{ .name }}</a>
         </li>
         {{ end }}
+
+
+
         <li class="nav-item navbar-text">
           <div class="custom-control custom-switch">
             <input type="checkbox" class="custom-control-input" id="customSwitch1" autocomplete="on">

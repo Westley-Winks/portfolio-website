@@ -26,7 +26,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/website/static/images/profile.png"
+  profile_image: "/images/profile.png"
   name: "Westley Winks"
   namecolor: ffc107
   profession: "Aspiring Data Scientist and Humanitarian"
@@ -82,22 +82,12 @@ params:
       description: "An analysis of food insecurity in Oregon in 2020"
 
   # Achievements
-  disable_achievements: true
+  disable_achievements: false
   achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      # url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
+    - title: Google Data Analytics
+      description: 8-course data analytics specialization offered by Google
+      img: /images/google-cert.jpg
+      url: https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME
 
   # Contact
   disable_contact: false

@@ -100,7 +100,7 @@ params:
   email: "westleywinks@protonmail.com"
 
   # Why
-  disable_why: false
+  disable_why: true
   why_content: Here is some content! Get inspiration from that one Medium article "data guy"
 
 

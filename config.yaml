@@ -21,6 +21,7 @@ params:
 
   favicon: "/images/w-fav.png"
   description: "description"
+  logo: "/images/westley-fav.png"
 
   # Navbar Menus
 

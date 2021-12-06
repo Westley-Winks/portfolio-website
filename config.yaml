@@ -1,0 +1,120 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Westley Winks"
+theme: "./.."
+relativeURLs: true
+
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: "/images/fav.png"
+  description: "description"
+
+  # Navbar Menus
+
+  # home
+  disable_home: false
+  profile_image: "/images/v3-demo.png"
+  name: "Westley Winks"
+  namecolor: ffc107
+  profession: "Aspiring Data Scientist and Humanitarian"
+  github: "https://github.com/Westley-Winks"
+  linkedin: "https://linkedin.com"
+  twitter: "https://twitter.com/"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm Westley. I love people and humanity. My mission in life is to get people access to basic needs like food, water, shelter, and equity. I want to use data to accomplish that."
+  descripe_l2_person: "After graduating from Oregon State University with a Bachelor’s in Chemical Engineering, I moved to Central Oregon and was patiently waiting to leave for the Peace Corps when COVID hit and delayed those plans. Instead, I searched for a career path that led me towards my mission and found it in the field of data. I took a course in data analytics and truly loved it. I pitched a data analytics job to a local non-profit in my area and was hired as a data analyst, an opening they had never considered. I am continually learning and have a full pipeline of project ideas and courses to practice my data skills. I know that I can use data for good (actual good, not just a buzzword) and use my abilities to really help people."
+  skills:
+    - name: Python
+      percentage: 75
+    - name: R
+      percentage: 80
+    - name: Git
+      percentage: 90
+
+  # Experience
+  disable_experience: true
+  experience:
+    - company: "Google"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Software developer"
+      startdate: Feb 2021
+      enddate: present
+      featuredpoints:
+        - point: Lead backend developer for a product.
+        - point: Created a frontend design for a product.
+    - company: "Facebook"
+      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+      role: "Fullstack developer"
+      startdate: Mar 2020
+      enddate: Dec 2020
+      featuredpoints:
+        - point: Lead backend developer for a product.
+        - point: Created a frontend design for a product.
+    - company: "Amazon"
+      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
+      role: "Fullstack developer"
+      startdate: Feb 2019
+      enddate: Jan 2020
+      featuredpoints:
+        - point: Lead backend developer for a product.
+        - point: Created a frontend design for a product.
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "Bachelor's of Science"
+      branch: "Chemical Engineering"
+      university: "Oregon State University"
+      startedyear: "2017"
+      graduation: "2021"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "2020 Oregon Food Insecurity Analysis"
+      img: /images/project.jpg
+      githublink: "https://github.com/Westley-Winks/oregon-food-insecurity"
+      featuredlink: "/"
+      description: "An analysis of food insecurity in Oregon in 2020"
+
+  # Achievements
+  disable_achievements: true
+  achievements:
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+      url: https://example.com
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+      # url: https://example.com
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  email: "westleywinks@protonmail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: false

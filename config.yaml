@@ -19,7 +19,7 @@ params:
   version: 3
   customCSS: false
 
-  favicon: "/images/fav.png"
+  favicon: "/images/w-fav.png"
   description: "description"
 
   # Navbar Menus

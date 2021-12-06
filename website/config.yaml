@@ -23,7 +23,6 @@ params:
   description: "description"
   logo: "/images/westley-fav.png"
 
-
   # Navbar Menus
 
   # home
@@ -31,7 +30,7 @@ params:
   profile_image: "/images/profile.png"
   name: "Westley Winks"
   namecolor: ffc107
-  profession: "Aspiring Data Scientist and Humanitarian"
+  profession: "Data Analyst, Aspiring Data Scientist and Humanitarian"
   github: "https://github.com/Westley-Winks"
 
   # About

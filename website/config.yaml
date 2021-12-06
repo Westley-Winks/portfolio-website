@@ -1,4 +1,4 @@
-baseURL: "https://westley-winks.github.io/portfolio-website/"
+baseURL: "https://westley-winks.github.io/"
 languageCode: "en-us"
 title: "Westley Winks"
 theme: "./.."
@@ -78,7 +78,7 @@ params:
     - name: "2020 Oregon Food Insecurity Analysis"
       img: /images/oregon-food-insecurity.png
       githublink: "https://github.com/Westley-Winks/oregon-food-insecurity"
-      featuredlink: "/"
+      featuredlink: "https://westley-winks.github.io/oregon-food-insecurity/"
       description: "An analysis of food insecurity in Oregon in 2020"
 
   # Achievements
@@ -86,7 +86,7 @@ params:
   achievements:
     - title: Google Data Analytics
       description: 8-course data analytics specialization offered by Google
-      img: /images/google-cert.jpg
+      img: /images/google-cert.png
       url: https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME
 
   # Contact

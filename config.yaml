@@ -19,9 +19,9 @@ params:
   version: 3
   customCSS: false
 
-  favicon: "/images/w-fav.png"
+  favicon: "/images/w-fav-smaller.png"
   description: "description"
-  logo: "/images/westley-fav.png"
+  logo: "/images/w-fav.png"
 
   # Navbar Menus
 

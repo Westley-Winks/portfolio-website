@@ -40,9 +40,13 @@ params:
   descripe_l2_person: "After graduating from Oregon State University with a Bachelor’s in Chemical Engineering, I moved to Central Oregon and was patiently waiting to leave for the Peace Corps when COVID hit and delayed those plans. Instead, I searched for a career path that led me towards my mission and found it in the field of data. I took a course in data analytics and truly loved it. I pitched a data analytics job to a local non-profit in my area and was hired as a data analyst, an opening they had never considered. I am continually learning and have a full pipeline of project ideas and courses to practice my data skills. I know that I can use data for good (actual good, not just a buzzword) and use my abilities to really help people."
   skills:
     - name: Python
-      percentage: 75
+      percentage: 70
+    - name: pandas (Python Package)
+      percentage: 80
     - name: R
-      percentage: 75
+      percentage: 60
+    - name: tidyverse (R Package)
+      percentage: 85
     - name: Git
       percentage: 90
 

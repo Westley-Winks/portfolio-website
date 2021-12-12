@@ -28,6 +28,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: westleywinks.com
           #external_repository:  gurusabarish/hugo-profile-demo
           publish_branch: demo
           user_name: hugo-profile bot

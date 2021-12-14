@@ -90,10 +90,12 @@ params:
       githublink: "https://github.com/Westley-Winks/oregon-food-insecurity"
       featuredlink: "https://westley-winks.github.io/oregon-food-insecurity/"
       description: "An analysis of food insecurity in Oregon in 2020"
-    - name: "Advent of Code 2021"
+
+    - name: "2021 Portland Crime Analysis"
       img: /images/project.jpg
-      githublink: "https://github.com/Westley-Winks/2021_advent-of-code"
-      description: "Fun coding puzzles delivered advent style for the month of December"
+      githublink: "https://github.com/Westley-Winks/john-crime"
+      featuredlink: "https://westley-winks.github.io/john-crime/"
+      description: "An analysis into crime in key neighborhoods around my friend's house in Portland, Oregon"
 
   # Achievements
   disable_achievements: false

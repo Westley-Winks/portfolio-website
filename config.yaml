@@ -1,4 +1,4 @@
-baseURL: "https://westley-winks.github.io/"
+baseURL: "https://westleywinks.com"
 languageCode: "en-us"
 title: "Westley Winks"
 theme: "./.."
@@ -100,8 +100,8 @@ params:
   # Achievements
   disable_achievements: false
   achievements:
-    - title: Google Data Analytics
-      description: 8-course data analytics specialization offered by Google
+    - title: Google Data Analytics Certificate
+      description: 8-course data analytics specialization certificate offered by Google
       img: /images/google-cert.png
       url: https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME
 
@@ -113,7 +113,6 @@ params:
   # Why
   disable_why: true
   why_content: Here is some content!
-
 
   # Footer
   socialiconfooter: true

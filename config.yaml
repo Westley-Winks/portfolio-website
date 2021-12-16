@@ -92,7 +92,7 @@ params:
       description: "An analysis of food insecurity in Oregon in 2020"
 
     - name: "2021 Portland Crime Analysis"
-      img: /images/project.jpg
+      img: /images/portland-crime-map.png
       githublink: "https://github.com/Westley-Winks/john-crime"
       featuredlink: "https://westley-winks.github.io/john-crime/"
       description: "An analysis into crime in key neighborhoods around my friend's house in Portland, Oregon"

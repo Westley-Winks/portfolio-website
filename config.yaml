@@ -105,6 +105,11 @@ params:
       img: /images/google-cert.png
       url: https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME
 
+    - title: 365 Data Science - Statistics
+      description: Part of a 10-course certificate track for data science hosted by 365 Data Science. I am in the middle of the overall course and will update as I go along.
+      img: /images/365_statistics.jpg
+      url: https://learn.365datascience.com/c/b69c4aa55f/
+
   # Contact
   disable_contact: false
   contact_content: My communication channels are open to all. Feel free to email anytime for anything!

@@ -97,7 +97,7 @@ params:
       featuredlink: "https://westley-winks.github.io/john-crime/"
       description: "An analysis into crime in key neighborhoods around my friend's house in Portland, Oregon"
 
-  # Achievements
+  # Certifications
   disable_achievements: false
   achievements:
     - title: Google Data Analytics Certificate

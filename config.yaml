@@ -39,29 +39,25 @@ params:
   descripe_l1_person: "Hi, I'm Westley. I love people and humanity. My mission in life is to get people access to basic needs like food, water, and education. I want to use data to accomplish that."
   descripe_l2_person: "After graduating from Oregon State University with a Bachelor’s in Chemical Engineering, I moved to Central Oregon and was patiently waiting to leave for the Peace Corps when COVID hit and delayed those plans. Instead, I searched for a career path that led me towards my mission and found it in the field of data. I took a course in data analytics and truly loved it. I pitched a data analytics job to a local non-profit in my area and was hired as a data analyst, an opening they had never considered. I am continually learning and have a full pipeline of project ideas and courses to practice my data skills. I know that I can use data for good (actual good, not just a buzzword) and use my abilities to really help people."
   skills:
-    - name: Python
+    - name: Python (pandas, numpy, matplotlib, sklearn, tensorflow)
       percentage: 70
-    - name: pandas (Python Package)
-      percentage: 70
-    - name: R
+    - name: R (tidyverse)
       percentage: 60
-    - name: tidyverse (R Package)
-      percentage: 85
-    - name: Git
-      percentage: 90
-    - name: SQL
+    - name: SQL (MySQL, SQLite)
       percentage: 45
-
+    - name: Git (GitHub)
+      percentage: 90
   # Experience
   disable_experience: false
   experience:
-    - company: "Shiloh Ranch Church"
+    - company: "Shiloh Ranch Church and The 1017 Project"
       id: "data-analyst"
       role: "Data Analyst"
-      startdate: June 2021
-      enddate: Present
+      startdate: September 2021
+      enddate: January 2022
       featuredpoints:
         - point: Collect and analyze data from social media platforms extracted from API's with Python
+        - point: Generated data visualizations for annual impact report. Compiled these visualization into a ready to deliver report
 
     - company: "HP"
       id: "reliability-intern"

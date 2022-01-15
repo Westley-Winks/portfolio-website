@@ -97,14 +97,14 @@ params:
   disable_achievements: false
   achievements:
     - title: Google Data Analytics Certificate
-      description: 8-course data analytics specialization certificate offered by Google
+      description: 8-course data analytics specialization certificate offered by Google. Courses included data cleaning, EDA, visualization, storytelling with data, and R language.
       img: /images/google-cert.png
       url: https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME
 
-    - title: 365 Data Science - Statistics
-      description: Part of a 10-course certificate track for data science hosted by 365 Data Science. I am in the middle of the overall course and will update as I go along.
-      img: /images/365_statistics.jpg
-      url: https://learn.365datascience.com/c/b69c4aa55f/
+    - title: 365 Data Science - Data Scientist Career Track
+      description: 10-course certificate track for data science hosted by 365 Data Science. Courses include deep learning, convolutional neural networks, machine learning, SQL, Python, and foundational skills such as probability and statistics.
+      img: /images/365-certification.jpg
+      url: https://learn.365datascience.com/c/0b53e0749a/
 
   # Contact
   disable_contact: false

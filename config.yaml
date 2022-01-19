@@ -30,7 +30,7 @@ params:
   profile_image: "/images/profile.png"
   name: "Westley Winks"
   namecolor: ffc107
-  profession: "Data Analyst, Aspiring Data Scientist and Aspiring Humanitarian"
+  profession: "Data Scientist and Aspiring Humanitarian"
   github: "https://github.com/Westley-Winks"
 
   # About
@@ -44,7 +44,7 @@ params:
     - name: R (tidyverse)
       percentage: 60
     - name: SQL (MySQL, SQLite)
-      percentage: 45
+      percentage: 55
     - name: Git (GitHub)
       percentage: 90
   # Experience

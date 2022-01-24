@@ -86,16 +86,28 @@ params:
       graduation: "2021"
 
   # Projects
+  # add some kind of rollover feature when too many projects
   disable_projects: false
   projects:
+    - name: "Solar Panel Energy Output Prediction"
+      img: /images/project.jpg
+      tools_used: "Python, pandas, scikit-learn, requests"
+      category: "Machine Learning, Regression"
+      githublink: "https://github.com/Westley-Winks/solar-output"
+      featuredlink: "https://share.streamlit.io/westley-winks/solar-output/main"
+      description: "Predicting actual solar panel energy output using machine learning"
     - name: "2020 Oregon Food Insecurity Analysis"
       img: /images/oregon-food-insecurity.png
+      tools_used: "R, tidyverse"
+      category: "Data Analysis"
       githublink: "https://github.com/Westley-Winks/oregon-food-insecurity"
       featuredlink: "https://westley-winks.github.io/oregon-food-insecurity/"
       description: "An analysis of food insecurity in Oregon in 2020"
 
     - name: "2021 Portland Crime Analysis"
       img: /images/portland-crime-map.png
+      tools_used: "Python, geopandas, pandas"
+      category: "Data Analysis"
       githublink: "https://github.com/Westley-Winks/john-crime"
       featuredlink: "https://westley-winks.github.io/john-crime/"
       description: "An analysis into crime in key neighborhoods around my friend's house in Portland, Oregon"

@@ -27,7 +27,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/images/profile.png"
+  profile_image: "/images/me.jpeg"
   name: "Westley Winks"
   namecolor: ffc107
   profession: "Data Scientist and Aspiring Humanitarian"
@@ -90,7 +90,7 @@ params:
   disable_projects: false
   projects:
     - name: "Solar Panel Energy Output Prediction"
-      img: /images/project.jpg
+      img: /images/solar-output.png
       tools_used: "Python, pandas, scikit-learn, requests"
       category: "Machine Learning, Regression"
       githublink: "https://github.com/Westley-Winks/solar-output"
@@ -104,13 +104,13 @@ params:
       featuredlink: "https://westley-winks.github.io/oregon-food-insecurity/"
       description: "An analysis of food insecurity in Oregon in 2020"
 
-    - name: "2021 Portland Crime Analysis"
-      img: /images/portland-crime-map.png
-      tools_used: "Python, geopandas, pandas"
-      category: "Data Analysis"
-      githublink: "https://github.com/Westley-Winks/john-crime"
-      featuredlink: "https://westley-winks.github.io/john-crime/"
-      description: "An analysis into crime in key neighborhoods around my friend's house in Portland, Oregon"
+    # - name: "2021 Portland Crime Analysis"
+    #   img: /images/portland-crime-map.png
+    #   tools_used: "Python, geopandas, pandas"
+    #   category: "Data Analysis"
+    #   githublink: "https://github.com/Westley-Winks/john-crime"
+    #   featuredlink: "https://westley-winks.github.io/john-crime/"
+    #   description: "An analysis into crime in key neighborhoods around my friend's house in Portland, Oregon"
 
   # Certifications
   disable_achievements: false

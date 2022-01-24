@@ -36,8 +36,14 @@ params:
   # About
   disable_about: false
   disable_about_button: true
-  descripe_l1_person: "Hi, I'm Westley. I love people and humanity. My mission in life is to get people access to basic needs like food, water, and education. I want to use data to accomplish that."
-  descripe_l2_person: "After graduating from Oregon State University with a Bachelor’s in Chemical Engineering, I moved to Central Oregon and was patiently waiting to leave for the Peace Corps when COVID hit and delayed those plans. Instead, I searched for a career path that led me towards my mission and found it in the field of data. I took a course in data analytics and truly loved it. I pitched a data analytics job to a local non-profit in my area and was hired as a data analyst, an opening they had never considered. I am continually learning and have a full pipeline of project ideas and courses to practice my data skills. I know that I can use data for good (actual good, not just a buzzword) and use my abilities to really help people."
+  descripe_l1_person: "Hi, I'm Westley. I am a data scientist."
+  descripe_l2_person: "After graduating with a B.S. in Chemical Engineering, I thought deeply about my career goals and if engineering was a part of it. I thought about what classes I enjoyed and what parts of my internship experience at HP engaged me the most. It all pointed towards data science and I vigorously followed this new found passion."
+  descripe_l3_person: "Math and chemical engineering theory were my favorite courses in college. It absolutely fascinates me that we can make computers and machines do things like drive vehicles, recognize faces, and even simpler examples like recognize hand-written digits all by using math and open source coding tools. It is also incredibly exciting that the tools are already out there, waiting to be learned and utilized."
+  descripe_l4_person: "In a span of about 3 months, I completed two certifications to gain basic data science and machine learning knowledge while completing projects at the same time. I took a debt of knowledge in the form of just getting the minimum basics of the theory while focusing my efforts on the application of data science. I learned how to use the tools to create impact while intentionally forgoing learning how the tools are made. This is a debt that I am actively paying back and I am pursuing projects and resources to fill in these gaps."
+  descripe_l5_person: "As data science, machine learning, and artificial intelligence are relatively new fields, it means there is ample opportunity for continual learning as I progress further down this path. Continual learning is one of my core values and a career that gives me the space to do that is exactly what I am looking for. This passion and tenacity for learning is what allowed me to quickly pivot into this field."
+  descripe_l6_person: "My long term career goal is to use data science for good in a humanitarian sense. I want to be on the cutting edge of using these tools to create positive impact in the world with the knowledge that I gain."
+
+
   skills:
     - name: Python (pandas, numpy, matplotlib, sklearn, tensorflow)
       percentage: 70
@@ -56,7 +62,7 @@ params:
       startdate: September 2021
       enddate: January 2022
       featuredpoints:
-        - point: Collect and analyze data from social media platforms extracted from API's with Python
+        - point: Collected and analyzed data from social media platforms extracted from API's with Python
         - point: Generated data visualizations for annual impact report. Compiled these visualization into a ready to deliver report
 
     - company: "HP"
@@ -65,7 +71,8 @@ params:
       startdate: June 2020
       enddate: April 2020
       featuredpoints:
-        - point: Extracted and analyzed public weather data to inform engineering teams on what conditions products see during shipping
+        - point: Initiated a project that will allow engineers to understand conditions that merchandise sees during shipment using a global database of public weather data
+        - point: Extracted and analyzed public weather data using Python
 
   # Education
   disable_education: false

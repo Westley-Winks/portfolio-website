@@ -3,6 +3,9 @@
 {{ if eq .Site.Params.version 1 }}
 
 <head>
+
+  {{ template "_internal/google_analytics.html" . }}
+
   <title>{{- .Site.Title -}}</title>
   <!-- stylesheets -->
   <link rel="stylesheet" href="/css/bootstrap.min.css">

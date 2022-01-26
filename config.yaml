@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Westley Winks"
 theme: "./.."
 relativeURLs: true
+googleAnalytics: G-JXZ6E2PE8W
 
 Paginate: 3
 markup:

@@ -38,7 +38,6 @@ params:
   # About
   disable_about: false
   disable_about_button: true
-  # descripe_l1_person: "Hi, I'm Westley. I am a data scientist."
   descripe_l1_person: "After graduating with a B.S. in Chemical Engineering, I thought deeply about my career goals and if engineering was a part of it. I thought about what classes I enjoyed and what parts of my internship experience at HP engaged me the most. It all pointed towards data science and I vigorously followed this new found passion."
   descripe_l2_person: "Math and chemical engineering theory were my favorite courses in college. It absolutely fascinates me that we can make computers and machines do things like drive vehicles, recognize faces, and even simpler examples like recognize hand-written digits all by using math and open source coding tools. It is also incredibly exciting that the tools are already out there, waiting to be learned and utilized."
   descripe_l3_person: "In a span of about 3 months, I completed two certifications to gain basic data science and machine learning knowledge while completing projects at the same time. I took a debt of knowledge in the form of just getting the minimum basics of the theory while focusing my efforts on the application of data science. I learned how to use the tools to create impact while intentionally forgoing learning how the tools are made. This is a debt that I am actively paying back and I am pursuing projects and resources to fill in these gaps."
@@ -60,11 +59,11 @@ params:
   experience:
     - company: "Shiloh Ranch Church and The 1017 Project"
       id: "data-analyst"
-      role: "Data Analyst"
+      role: "Data Analyst Freelancer"
       startdate: September 2021
       enddate: January 2022
       featuredpoints:
-        - point: Collected and analyzed data from social media platforms extracted from API's with Python
+        - point: Determined eﬀectiveness of posts for media team by collecting and analyzing data from social media platforms extracted from API’s with Python
         - point: Generated data visualizations for annual impact report. Compiled these visualization into a ready to deliver report
 
     - company: "HP"

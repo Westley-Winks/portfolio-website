@@ -90,6 +90,14 @@ params:
   # add some kind of rollover feature when too many projects
   disable_projects: false
   projects:
+
+    - name: "Tactile Paving Classifier"
+      img: /images/tactile-paving.png
+      tools_used: "Python, tensorflow, keras, requests"
+      category: "Deep Learning, Classification"
+      githublink: "https://github.com/Westley-Winks/tactile-paving-classifier"
+      description: "Classifies images based on whether or not they contain tactile paving"
+
     - name: "Solar Panel Energy Output Prediction"
       img: /images/solar-output.png
       tools_used: "Python, pandas, scikit-learn, requests"
@@ -97,6 +105,7 @@ params:
       githublink: "https://github.com/Westley-Winks/solar-output"
       featuredlink: "https://share.streamlit.io/westley-winks/solar-output/main"
       description: "Predicting actual solar panel energy output using machine learning"
+
     - name: "2020 Oregon Food Insecurity Analysis"
       img: /images/oregon-food-insecurity.png
       tools_used: "R, tidyverse"

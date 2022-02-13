@@ -7,16 +7,15 @@ googleAnalytics: G-JXZ6E2PE8W
 enableRobotsTXT: true
 disableKinds: ["sitemap"]
 
-
 Paginate: 3
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-# taxonomies:
-  # tag: "tags"
-  # category: "categories"
+taxonomies:
+  tag: "tags"
+  category: "categories"
 
 enableEmoji: true
 params:

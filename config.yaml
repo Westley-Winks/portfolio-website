@@ -4,6 +4,9 @@ title: "Westley Winks"
 theme: "./.."
 relativeURLs: true
 googleAnalytics: G-JXZ6E2PE8W
+enableRobotsTXT: true
+disableKinds: ["sitemap"]
+
 
 Paginate: 3
 markup:
@@ -11,9 +14,9 @@ markup:
     renderer:
       unsafe: true
 
-taxonomies:
-  tag: "tags"
-  category: "categories"
+# taxonomies:
+  # tag: "tags"
+  # category: "categories"
 
 enableEmoji: true
 params:

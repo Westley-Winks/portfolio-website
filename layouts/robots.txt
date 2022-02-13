@@ -1,0 +1,2 @@
+User-agent: *{{ range .Pages}}{{ if eq .RelPermalink "/" }}{{else}}
+Disallow: {{ .RelPermalink }}{{ end }}{{ end }}

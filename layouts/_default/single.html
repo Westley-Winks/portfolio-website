@@ -19,7 +19,7 @@
 {{ define "main" }}
 
 {{ if eq .Site.Params.version 3 }}
-<section style="font-family: 'Roboto', sans-serif;">
+<section style="font-family: 'Roboto', sans-serif; text-align: center;">
 
   <div class="bottom-share d-none">
     <div class="my-1 mb-3 share-container">
@@ -87,7 +87,9 @@
       </div>
 
       <div class="col-md-3 py-4">
-        {{ if .Site.Params.linkedin }}
+        <div class="bg-light shadow p-4 rounded mb-2 bg-light">
+          <h4>More Information</h4>
+          {{ if .Site.Params.linkedin }}
         <span class="px-1">
           <a class="text-white text-decoration-none" href="{{ .Site.Params.linkedin }}" aria-label="linkedin">
             <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
@@ -128,12 +130,13 @@
         </span>
         {{ end }}
 
-        <!-- </div>
-        <div class="bg-light shadow p-4 rounded mb-2 bg-light">
-          <h4>Table of content</h4>
-          {{.TableOfContents}}
+        <a target="blank" class="text-info"
+                href="{{ .Params.home }}">
+                Home
+              </a>
+
         </div>
-        <div class="bg-light shadow p-4 rounded mt-2 bg-light">
+        <!-- <div class="bg-light shadow p-4 rounded mt-2 bg-light">
           <h4>Share article with</h4>
           <ul>
             <li>
@@ -159,8 +162,8 @@
 
 
 
-        </div>
-      </div> -->
+        </div> -->
+      </div>
       {{ template "_internal/disqus.html" . }}
     </div>
   </div>

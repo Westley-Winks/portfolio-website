@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /categories/
+Disallow: /hugging-face/
+Disallow: /tags/

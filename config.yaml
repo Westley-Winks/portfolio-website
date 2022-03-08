@@ -95,10 +95,10 @@ params:
 
     - name: "Tactile Paving Classifier"
       img: /images/tactile-paving.png
-      tools_used: "Python, tensorflow, keras, requests"
-      category: "Deep Learning, Classification"
-      githublink: "https://github.com/Westley-Winks/tactile-paving-classifier"
-      description: "Classifies images based on whether or not they contain tactile paving"
+      tools_used: "pytorch, Hugging Face transformers"
+      category: "Deep Learning, Object Detection"
+      githublink: "https://github.com/Westley-Winks/tactile-paving-detector"
+      description: "Detects tactile paving in images"
 
     - name: "Solar Panel Energy Output Prediction"
       img: /images/solar-output.png

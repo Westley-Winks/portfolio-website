@@ -33,29 +33,32 @@ params:
   profile_image: "/images/me.jpeg"
   name: "Westley Winks"
   namecolor: ffc107
-  profession: "Data Scientist and Aspiring Humanitarian"
+  profession: "Machine Learning Engineer and Aspiring Humanitarian"
   github: "https://github.com/Westley-Winks"
   linkedin: "https://www.linkedin.com/in/westley-winks"
 
   # About
   disable_about: false
   disable_about_button: true
-  descripe_l1_person: "After graduating with a B.S. in Chemical Engineering, I thought deeply about my career goals and if engineering was a part of it. I thought about what classes I enjoyed and what parts of my internship experience at HP engaged me the most. It all pointed towards data science and I vigorously followed this new found passion."
-  descripe_l2_person: "Math and chemical engineering theory were my favorite courses in college. It absolutely fascinates me that we can make computers and machines do things like drive vehicles, recognize faces, and even simpler examples like recognize hand-written digits all by using math and open source coding tools. It is also incredibly exciting that the tools are already out there, waiting to be learned and utilized."
-  descripe_l3_person: "In a span of about 3 months, I completed two certifications to gain basic data science and machine learning knowledge while completing projects at the same time. I took a debt of knowledge in the form of just getting the minimum basics of the theory while focusing my efforts on the application of data science. I learned how to use the tools to create impact while intentionally forgoing learning how the tools are made. This is a debt that I am actively paying back and I am pursuing projects and resources to fill in these gaps."
+  descripe_l1_person: "After graduating with a B.S. in Chemical Engineering, I thought deeply about my career goals and if engineering was a part of it. I thought about what classes I enjoyed and what parts of my internship experience at HP engaged me the most. It all pointed towards data science and machine learning and I vigorously followed this new found passion."
+  descripe_l2_person: "Math and chemical engineering theory were my favorite courses in college. It absolutely fascinates me that we can make machines do things like drive vehicles, recognize faces, and even simpler examples like recognize hand-written digits all by using math and open source coding tools. It is also incredibly exciting that the tools are already out there, waiting to be learned and utilized."
+  descripe_l3_person: "In a span of about 3 months, I completed two certifications to gain basic data science and machine learning knowledge while completing projects at the same time. I am actively learning more each and every day through projects, courses, and books."
   descripe_l4_person: "As data science, machine learning, and artificial intelligence are relatively new fields, it means there is ample opportunity for continual learning as I progress further down this path. Continual learning is one of my core values and a career that gives me the space to do that is exactly what I am looking for. This passion and tenacity for learning is what allowed me to quickly pivot into this field."
-  descripe_l5_person: "My long term career goal is to use data science for good in a humanitarian sense. I want to be on the cutting edge of using these tools to create positive impact in the world with the knowledge that I gain."
-
+  descripe_l5_person: "My long term career goal is to become an expert in the machine learning field with a specialization in humanitarian application. I want to be on the cutting edge of using these tools to create positive impact in the world with the knowledge that I gain."
 
   skills:
-    - name: Python (pandas, numpy, matplotlib, sklearn, tensorflow)
+    - name: Python (pandas, numpy, matplotlib, scikit-learn)
       percentage: 70
-    - name: R (tidyverse)
+    - name: Deep Learning Frameworks (Tensorflow, PyTorch, Hugging Face)
       percentage: 60
     - name: SQL (MySQL, SQLite)
       percentage: 55
     - name: Git (GitHub)
-      percentage: 90
+      percentage: 80
+    - name: Google Cloud Platform
+      percentage: 40
+    - name: R (tidyverse)
+      percentage: 60
   # Experience
   disable_experience: false
   experience:
@@ -65,7 +68,7 @@ params:
       startdate: September 2021
       enddate: January 2022
       featuredpoints:
-        - point: Determined eﬀectiveness of posts for media team by collecting and analyzing data from social media platforms extracted from API’s with Python
+        - point: Determined effectiveness of posts for media team by collecting and analyzing data from social media platforms extracted from API’s with Python
         - point: Generated data visualizations for annual impact report. Compiled these visualization into a ready to deliver report
 
     - company: "HP"
@@ -84,7 +87,7 @@ params:
       branch: "Chemical Engineering"
       university: "Oregon State University"
       gpa: "3.79"
-      honors: "Magna Cum Laude"
+      honors: "Magna Cum Laude, Dean's List, Honor Roll"
       startedyear: "2017"
       graduation: "2021"
 
@@ -93,7 +96,7 @@ params:
   disable_projects: false
   projects:
 
-    - name: "Tactile Paving Classifier"
+    - name: "Tactile Paving Detector"
       img: /images/tactile-paving.png
       tools_used: "pytorch, Hugging Face transformers"
       category: "Deep Learning, Object Detection"
